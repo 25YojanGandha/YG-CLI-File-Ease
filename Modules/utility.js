@@ -6,7 +6,7 @@ function utilityWrapper(command) {
             childProcess.execSync("notepad.exe");
             break;
     
-        case "calcutor":
+        case "calculator":
             childProcess.execSync("calc");
             break;
 

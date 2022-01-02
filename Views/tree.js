@@ -6,7 +6,7 @@ function treeWrapper(path) {
 
 function viewHelper(path, indent) {
     if(!fs.lstatSync(path).isDirectory()){
-        console.log(indent+path+".");
+        console.log(indent+"    "+path+".");
     }else{
         console.log(indent+path+"*");
         let allContent = fs.readdirSync(path);
